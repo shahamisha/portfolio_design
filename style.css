@@ -3,6 +3,7 @@
     width: 1152px;
     height: 2041px;
     background: #FFF;
+    border: 15px solid green;
 }
 
 .home .navbar {
@@ -31,6 +32,9 @@
     line-height: normal;
 }
 
+.header {
+    background-color: #FF6464;
+}
 
 .header .text {
     width: 506px;
@@ -86,5 +90,6 @@
     line-height: normal;
     text-align: center;
 }
+
 
 
