@@ -1,0 +1,25 @@
+.navbar {
+    background-color: #FFF;
+}
+ 
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    margin-right: 60px;
+}
+
+.navbar ul li{
+    margin: 10px;
+    word-spacing: 10rem;
+    width: 106px;
+    height: 43px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: right;
+    font-family: Heebo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
