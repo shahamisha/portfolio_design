@@ -1,15 +1,22 @@
-.navbar {
+<!--navbar-->
+.home {
+    width: 1152px;
+    height: 2041px;
+    background: #FFF;
+}
+
+.home .navbar {
     background-color: #FFF;
 }
  
-.navbar ul{
+.home .navbar ul{
     display: flex;
     list-style-type: none;
     justify-content: flex-end;
     margin-right: 60px;
 }
 
-.navbar ul li{
+.home .navbar ul li{
     margin: 10px;
     word-spacing: 10rem;
     width: 106px;
@@ -23,3 +30,61 @@
     font-weight: 500;
     line-height: normal;
 }
+
+
+.header .text {
+    width: 506px;
+    height: 105px;
+    flex-shrink: 0;
+    color: var(--Dark-Color, #21243D);
+    font-family: Heebo;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 136.364% */
+    display: inline-block;
+    margin-left: 148px;
+}
+
+.header .text2{
+    padding: 40px;
+    width: 497px;
+    height: 66px;
+    flex-shrink: 0;
+    color: var(--Dark-Color, #21243D);
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    margin-left: 110px;
+}
+
+.header .elipse {
+    width: 243px;
+    height: 243px;
+    flex-shrink: 0;
+    border-radius: 243px;
+    display: flex;
+    float: right;
+    margin-right: 149px;
+}
+
+.header .rectangle {
+    width: 208px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: var(--Primary, #FF6464);
+    margin-left: 148px;
+    color: #FFF;
+    font-family: Heebo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+
